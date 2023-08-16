@@ -1,8 +1,8 @@
-vm@ubuntu:~/src/LinuxMemoryManager/Course/LinuxMemoryManager/UdemyCourse$ gcc -g -c testapp.c -o testapp.o
-vm@ubuntu:~/src/LinuxMemoryManager/Course/LinuxMemoryManager/UdemyCourse$ gcc -g -c mm.c -o mm.o
-vm@ubuntu:~/src/LinuxMemoryManager/Course/LinuxMemoryManager/UdemyCourse$ gcc -g -c gluethread/glthread.c -o gluethread/glthread.o
-vm@ubuntu:~/src/LinuxMemoryManager/Course/LinuxMemoryManager/UdemyCourse$ gcc -g gluethread/glthread.o mm.o testapp.o -o test.exe
-vm@ubuntu:~/src/LinuxMemoryManager/Course/LinuxMemoryManager/UdemyCourse$ ./test.exe
+vm@ubuntu:~/src/LinuxMemoryManager/Course/LinuxMemoryManager gcc -g -c testapp.c -o testapp.o
+vm@ubuntu:~/src/LinuxMemoryManager/Course/LinuxMemoryManager gcc -g -c mm.c -o mm.o
+vm@ubuntu:~/src/LinuxMemoryManager/Course/LinuxMemoryManager gcc -g -c gluethread/glthread.c -o gluethread/glthread.o
+vm@ubuntu:~/src/LinuxMemoryManager/Course/LinuxMemoryManager gcc -g gluethread/glthread.o mm.o testapp.o -o test.exe
+vm@ubuntu:~/src/LinuxMemoryManager/Course/LinuxMemoryManager ./test.exe
 Page Family : emp_t, Size = 36
 Page Family : student_t, Size = 56
 
